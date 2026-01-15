@@ -59,4 +59,3 @@ else:
     st.title("Knew you would say yes! ❤️")
     st.subheader("We'll ride horses together! 🖤")
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1bmNid2Z4dzRieXp0eXpueXpueXpueXpueXpueXpueXpueXpueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/K976VvCc8z4xG/giphy.gif")
-
