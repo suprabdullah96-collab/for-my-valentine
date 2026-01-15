@@ -19,7 +19,7 @@ st.markdown("""
         color: white !important;
     }
     </style>
-    """, unsafe_content_type=True)
+    """, unsafe_allow_html=True)
 
 if 'stage' not in st.session_state:
     st.session_state.stage = 0
@@ -57,4 +57,5 @@ if st.session_state.stage < 100:
 else:
     st.balloons()
     st.title("Knew you would say yes! ❤️")
+
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1bmNid2Z4dzRieXp0eXpueXpueXpueXpueXpueXpueXpueXpueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/K976VvCc8z4xG/giphy.gif")
